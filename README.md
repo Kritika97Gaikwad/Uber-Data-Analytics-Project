@@ -30,19 +30,23 @@ The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as 
 ### 3. Database Design and Creation:
 
 - The ER diagram was created using Lucidchart and saved as diagrams/uber_eer_diagram.lucidchart.
-- Run scripts/create_tables.py to create database tables based on the ER diagram.
+- Run Uber_data_analytics_project.ipynb in pytho, to create database tables based on the ER diagram.
 ![Uber Data Analytics (1)](https://github.com/Kritika97Gaikwad/Uber-Data-Analytics-Project/assets/151272622/9679a9a5-f883-443b-b974-622f76cf2a57)
 
 
 ### 4. ETL Pipeline:
 
 - Develop the ETL pipeline using Mage.ai.
-- Run scripts/etl_pipeline.py to extract, transform, and load the data into Google Cloud Platform.
+-Run ETL:
+  - Run Uber-Data-Analytics-Project/Maga-ai/extract.py to extract.
+  -  Uber-Data-Analytics-Project/Maga-ai/transform.py to transform.
+  -  Uber-Data-Analytics-Project/Maga-ai/load.py load the data into Google Cloud Platform.
 
 ### 5. Data Analysis with BigQuery:
 
-Use Google BigQuery to analyze the data loaded into GCP.
-Example queries and analysis scripts can be found in the bigquery_analysis/ directory.
+- Use Google BigQuery to analyze the data loaded into GCP.
+- Run Create_table.sql to create database tables based on the ER diagram.
+- Example queries and analysis scripts can be found in the bigquery_analysis/ directory.
 
 
 ### 6. Visualization with Looker:
