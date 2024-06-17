@@ -4,15 +4,21 @@
 ## Overview
 This project aims to analyze Uber data for New York City (NYC) to gain insights into ride patterns, peak hours, and other relevant metrics. The project involves data cleaning, exploratory data analysis (EDA), creating an Entity-Relationship (ER) diagram, database table creation, developing an ETL pipeline, and utilizing various tools for data storage, analysis, and visualization.
 
+## Data
+The Uber data for NYC used in this project is publicly available. You can download the dataset from the following link:
+
+- Uber NYC Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+- Uber Data Dictionary: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Requirements
 - Python 3.8 or higher
 - Google Cloud Platform account with BigQuery and Looker enabled
 
 ## Usage
+
 ### 1. Data Cleaning:
 
-The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as data/cleaned_uber_data.csv.
+The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as uber_data.csv.
 
 ### 2. Exploratory Data Analysis (EDA):
 
