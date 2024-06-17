@@ -29,8 +29,8 @@ The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as 
 
 ### 3. Database Design and Creation:
 
-- The ER diagram was created using Lucidchart and saved as diagrams/uber_eer_diagram.lucidchart.
-- Run Uber_data_analytics_project.ipynb in pytho, to create database tables based on the ER diagram.
+- The ER diagram was created using Lucidchart.
+- Run Uber_data_analytics_project.ipynb in python, to create database tables based on the ER diagram.
 ![Uber Data Analytics (1)](https://github.com/Kritika97Gaikwad/Uber-Data-Analytics-Project/assets/151272622/9679a9a5-f883-443b-b974-622f76cf2a57)
 
 
@@ -45,8 +45,8 @@ The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as 
 ### 5. Data Analysis with BigQuery:
 
 - Use Google BigQuery to analyze the data loaded into GCP.
-- Run Create_table.sql to create database tables based on the ER diagram.
-- Example queries and analysis scripts can be found in the bigquery_analysis/ directory.
+- Run Uber-Data-Analytics-Project/BigQuery-command/create_table.sql to create database tables based on the ER diagram.
+- Example queries and analysis scripts can be found in the Uber-Data-Analytics-Project/BigQuery-command/data_analysis.sql directory.
 
 
 ### 6. Visualization with Looker:
