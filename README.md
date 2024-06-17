@@ -22,7 +22,7 @@ The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as 
 
 ### 2. Exploratory Data Analysis (EDA):
 
-- Open notebooks/eda_notebook.ipynb in a Jupyter Notebook environment.
+- Open notebooks Uber_data_analytics_project.ipynb in a Jupyter Notebook environment.
 - Run the cells to perform EDA on the cleaned data.
 - Alternatively, you can run scripts/eda.py to perform EDA using a Python script.
 
