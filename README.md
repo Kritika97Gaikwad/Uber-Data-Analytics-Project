@@ -52,4 +52,4 @@ The raw Uber data for NYC was cleaned using Excel. The cleaned data is saved as 
 ### 6. Visualization with Looker:
 
 - Use Looker to create interactive dashboards and visualizations based on the BigQuery analysis results.
-- Example Looker dashboards and configurations can be found in the looker_dashboards/ directory.
+- Example Looker dashboards and configurations can be found in the Uber-Data-Analytics-Project/looker_dashboards/ directory.
